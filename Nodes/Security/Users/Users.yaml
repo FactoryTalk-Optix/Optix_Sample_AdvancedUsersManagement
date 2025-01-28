@@ -1,0 +1,29 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: CustomUserType1
+  Id: g=9af2a903a4b34272f70866c020976512
+  Type: CustomUserType
+  Children:
+  - Name: ManuallyDisabled
+    Id: g=c79df1afaf3607a4c0a7fd6bfb0b90fa
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: MustChangePassword
+    Id: g=0e6323c7b7b9e34a5d9b7909848e7a19
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutomaticBlockedDate
+    Id: g=016721f2009f0acde0d314b010d6631a
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: LastFailedLoginTime
+    Id: g=b1a91b76f3100070ebaf94e3a0f08185
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: FailedLoginsCounter
+    Id: g=8aefc6548421a12b5866580919710dbf
+    Type: BaseDataVariableType
+    DataType: Int32

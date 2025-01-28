@@ -1,0 +1,8 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: EventsDispatcher
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: TriggerUserSessionEvent

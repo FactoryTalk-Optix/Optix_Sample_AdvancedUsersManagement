@@ -1,0 +1,37 @@
+Name: Security
+Id: g=69b63ec1680bb66226168ed8c16521a0
+Type: SecurityCategoryFolder
+Children:
+- File: Users/Users.yaml
+- File: Groups/Groups.yaml
+- File: Roles/Roles.yaml
+- Name: CustomUserType
+  Id: g=72b048b95364957fc7d984ced737668a
+  Supertype: UserType
+  Children:
+  - Name: ManuallyDisabled
+    Id: g=f1cfeb6a89b172b2ea762e48dde33134
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Description: {"LocaleId":"en-US","Text":"Check if an administrator disabled this user"}
+  - Name: MustChangePassword
+    Id: g=46ab3e2e81bfc7879d41c48a970fba35
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Description: {"LocaleId":"en-US","Text":"Check if an administrator requested this user to change password"}
+    Value: true
+  - Name: AutomaticBlockedDate
+    Id: g=a7f344be57ccca7ff4fcb00263ef7d3e
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Description: {"LocaleId":"en-US","Text":"Set if the user fails to login X times"}
+  - Name: LastFailedLoginTime
+    Id: g=add3a0e462b3897d1b1efe2e56f7dffb
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Description: {"LocaleId":"en-US","Text":"Datetime of the last login failure"}
+  - Name: FailedLoginsCounter
+    Id: g=86bfa9d3d50304fc6e94176e38e85658
+    Type: BaseDataVariableType
+    DataType: Int32
+    Description: {"LocaleId":"en-US","Text":"How many login attempts were failed"}
