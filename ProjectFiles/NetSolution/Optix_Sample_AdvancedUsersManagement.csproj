@@ -18,5 +18,5 @@
   <ItemGroup>
     <PackageReference Include="Quickenshtein" Version="1.5.1"/>
   </ItemGroup>
-  <Import Project="Optix_Sample_AdvcancedUsersManagement.references"/>
+  <Import Project="Optix_Sample_AdvancedUsersManagement.references"/>
 </Project>

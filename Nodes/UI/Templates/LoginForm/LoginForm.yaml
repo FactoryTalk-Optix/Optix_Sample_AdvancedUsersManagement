@@ -31,12 +31,12 @@ Children:
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Logout"
+        Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Logout"
       - Name: FalseValue
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
-        Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+        Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
         Children:
         - Name: KeyValueConverter1
           Type: ValueMapConverter
@@ -49,8 +49,8 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Authentication/AuthenticationMode"
-          - Name: ns=2;Pairs
+              Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Authentication/AuthenticationMode"
+          - Name: ns=3;Pairs
             Type: BaseObjectType
             ModellingRule: None
             Children:
@@ -66,7 +66,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
             - Name: Pair1
               Type: ValueMapPair
               ModellingRule: None
@@ -80,7 +80,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
             - Name: Pair2
               Type: ValueMapPair
               ModellingRule: None
@@ -94,7 +94,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
             - Name: Pair3
               Type: ValueMapPair
               ModellingRule: None
@@ -108,7 +108,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
             - Name: Pair4
               Type: ValueMapPair
               ModellingRule: None
@@ -122,7 +122,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -136,7 +136,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/OAuth2Login"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/OAuth2Login"
   - Name: CurrentPanel
     Type: NodePointer
     DataType: NodeId
@@ -147,7 +147,7 @@ Children:
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
   - Class: Reference
-    Target: ns=3;i=478
+    Target: ns=5;i=478
     Direction: Forward
   - Name: Width
     Type: BaseVariableType
@@ -177,14 +177,14 @@ Children:
       DataType: NodePath
       Value: "../Users@NodeId"
 - File: LoginFormComponents/LoginFormComponents.yaml
-- Name: ns=4;LibraryReference
+- Name: ns=13;LibraryReference
   Type: ObjectLibraryReference
   DataType: ObjectLibraryReferenceDataType
   Value: 
    {
     "TypeId": {
      "Id": 72,
-     "Namespace": 4
+     "Namespace": 13
     },
     "Body": {
      "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",

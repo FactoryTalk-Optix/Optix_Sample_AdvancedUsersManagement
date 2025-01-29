@@ -73,11 +73,11 @@ public class UserEditorGroupsPanelLogic : BaseNetLogic
 
             if (editable.Value)
             {
-                groupUiObject = InformationModel.MakeObject<Panel>(group.BrowseName, Optix_Sample_AdvcancedUsersManagement.ObjectTypes.GroupCheckbox);
+                groupUiObject = InformationModel.MakeObject<Panel>(group.BrowseName, Optix_Sample_AdvancedUsersManagement.ObjectTypes.GroupCheckbox);
             }
             else if (UserHasGroup(group.NodeId))
             {
-                groupUiObject = InformationModel.MakeObject<Panel>(group.BrowseName, Optix_Sample_AdvcancedUsersManagement.ObjectTypes.GroupLabel);
+                groupUiObject = InformationModel.MakeObject<Panel>(group.BrowseName, Optix_Sample_AdvancedUsersManagement.ObjectTypes.GroupLabel);
             }
 
             if (groupUiObject == null)

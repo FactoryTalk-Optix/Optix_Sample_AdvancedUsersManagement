@@ -33,7 +33,7 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
-          Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
+          Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/Login"
           Children:
           - Name: KeyValueConverter1
             Type: ValueMapConverter
@@ -46,7 +46,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Authentication/AuthenticationMode"
+                Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Authentication/AuthenticationMode"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -57,12 +57,12 @@ Children:
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
-      Target: ns=3;i=478
+      Target: ns=5;i=478
       Direction: Forward
     - Name: Users
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Security/Users"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Security/Users"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -98,7 +98,7 @@ Children:
     - Name: Users
       Type: Alias
       DataType: NodeId
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Security/Users"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Security/Users"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -107,7 +107,7 @@ Children:
     - Name: Groups
       Type: Alias
       DataType: NodeId
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Security/Groups"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Security/Groups"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -123,7 +123,7 @@ Children:
           Type: ListBox
           Children:
           - Class: Reference
-            Target: ns=3;i=481
+            Target: ns=5;i=481
             Direction: Forward
           - Name: Model
             Type: NodePointer
@@ -185,12 +185,12 @@ Children:
           Type: PanelLoader
           Children:
           - Class: Reference
-            Target: ns=3;i=478
+            Target: ns=5;i=478
             Direction: Forward
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
+            Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -227,7 +227,7 @@ Children:
             - Name: NoUsersPanel
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/NoUsersPanel"
+              Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/NoUsersPanel"
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -235,7 +235,7 @@ Children:
             - Name: UserDetailPanel
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
+              Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -284,7 +284,7 @@ Children:
                   - Name: NewPanel
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/CreateUserPanel"
+                    Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/CreateUserPanel"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -443,7 +443,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/DataStores/EmbeddedDatabase1"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement/DataStores/EmbeddedDatabase1"
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -650,7 +650,7 @@ Children:
       DataType: NodeId
       AccessLevel: Read
     - Class: Reference
-      Target: ns=3;i=504
+      Target: ns=5;i=504
       Direction: Forward
     - Name: Width
       Type: BaseVariableType

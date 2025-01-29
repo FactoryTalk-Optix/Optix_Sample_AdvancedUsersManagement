@@ -70,7 +70,7 @@ Children:
         Type: ListBox
         Children:
         - Class: Reference
-          Target: ns=3;i=481
+          Target: ns=5;i=481
           Direction: Forward
         - Name: Model
           Type: NodePointer
@@ -161,12 +161,12 @@ Children:
         Type: PanelLoader
         Children:
         - Class: Reference
-          Target: ns=3;i=478
+          Target: ns=5;i=478
           Direction: Forward
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
+          Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -236,7 +236,7 @@ Children:
           - Name: NoUsersPanel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/NoUsersPanel"
+            Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/NoUsersPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -249,7 +249,7 @@ Children:
           - Name: UserDetailPanel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
+            Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/EditUserDetailPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -299,7 +299,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":7,"TextId":"Create"}
+          Value: {"NamespaceIndex":20,"TextId":"Create"}
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -350,12 +350,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/UserEditor/CreateUserPanel"
+                  Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
+                  Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/UserEditor/CreateUserPanel"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Description: {"NamespaceIndex":3,"TextId":"ChangePanelAliasNodeDescription"}
+                  Description: {"NamespaceIndex":5,"TextId":"ChangePanelAliasNodeDescription"}
                   ValueRank: ScalarOrOneDimension
           - Name: EventArguments
             Type: MouseClickEvent
@@ -401,7 +401,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":7,"TextId":"Delete"}
+          Value: {"NamespaceIndex":20,"TextId":"Delete"}
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -597,7 +597,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"EmptyUserList"}
+      Value: {"NamespaceIndex":20,"TextId":"EmptyUserList"}
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -771,7 +771,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":7,"TextId":"Name"}
+              Value: {"NamespaceIndex":20,"TextId":"Name"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -881,7 +881,7 @@ Children:
                     - Name: MethodContainer1
                       Type: BaseObjectType
                       Children:
-                      - Name: ns=2;ObjectPointer
+                      - Name: ns=3;ObjectPointer
                         Type: NodePointer
                         DataType: NodeId
                         Value: "/Objects/Commands/VariableCommands"
@@ -890,7 +890,7 @@ Children:
                           Type: PropertyType
                           DataType: NodeId
                           Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=2;Method
+                      - Name: ns=3;Method
                         Type: BaseDataVariableType
                         DataType: String
                         Value: "Set"
@@ -900,7 +900,7 @@ Children:
                         - Name: VariableToModify
                           Type: BaseDataVariableType
                           DataType: VariablePointer
-                          Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -915,11 +915,11 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                         - Name: ArrayIndex
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                           ValueRank: ScalarOrOneDimension
                   - Name: EventArguments
                     Type: VariableValueChangedEvent
@@ -1027,7 +1027,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":7,"TextId":"Password"}
+              Value: {"NamespaceIndex":20,"TextId":"Password"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1177,7 +1177,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=7;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
+              Value: "{NodeId:ns=20;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1211,7 +1211,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":7,"TextId":"Locale:"}
+              Value: {"NamespaceIndex":20,"TextId":"Locale:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1301,7 +1301,7 @@ Children:
                   Type: PropertyType
                   DataType: NodeId
               - Class: Reference
-                Target: ns=3;i=480
+                Target: ns=5;i=480
                 Direction: Forward
               - Name: LocaleComboBoxLogic
                 Type: NetLogic
@@ -1390,7 +1390,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=7;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
+              Value: "{NodeId:ns=20;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1568,7 +1568,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=7;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
+              Value: "{NodeId:ns=20;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1736,7 +1736,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=7;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
+              Value: "{NodeId:ns=20;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1904,7 +1904,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=7;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
+              Value: "{NodeId:ns=20;g=15fedfc9-477a-cabc-5977-e16d140759bd}"
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2079,7 +2079,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../../EditUserDetailPanelLogic/ErrorMessage"
-            - Name: ns=2;Pairs
+            - Name: ns=3;Pairs
               Type: BaseObjectType
               ModellingRule: None
               Children:
@@ -2109,7 +2109,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"CannotCreateUserWithEmptyUsername"}
+                  Value: {"NamespaceIndex":20,"TextId":"CannotCreateUserWithEmptyUsername"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2123,7 +2123,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UnableToGetUsers"}
+                  Value: {"NamespaceIndex":20,"TextId":"UnableToGetUsers"}
               - Name: Pair3
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2137,7 +2137,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UserNotFound"}
+                  Value: {"NamespaceIndex":20,"TextId":"UserNotFound"}
               - Name: Pair4
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2151,7 +2151,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"PasswordAlreadyUsed"}
+                  Value: {"NamespaceIndex":20,"TextId":"PasswordAlreadyUsed"}
               - Name: Pair5
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2165,7 +2165,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"PasswordChangedTooRecently"}
+                  Value: {"NamespaceIndex":20,"TextId":"PasswordChangedTooRecently"}
               - Name: Pair6
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2179,7 +2179,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"PasswordTooShort"}
+                  Value: {"NamespaceIndex":20,"TextId":"PasswordTooShort"}
               - Name: Pair7
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2193,7 +2193,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UserNotFound"}
+                  Value: {"NamespaceIndex":20,"TextId":"UserNotFound"}
               - Name: Pair8
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2207,7 +2207,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UnsupportedOperation"}
+                  Value: {"NamespaceIndex":20,"TextId":"UnsupportedOperation"}
               - Name: Pair9
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2221,7 +2221,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"ChangesAppliedSuccessfully"}
+                  Value: {"NamespaceIndex":20,"TextId":"ChangesAppliedSuccessfully"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -2282,7 +2282,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":7,"TextId":"Apply"}
+            Value: {"NamespaceIndex":20,"TextId":"Apply"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -2624,7 +2624,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"Groups"}
+      Value: {"NamespaceIndex":20,"TextId":"Groups"}
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -2946,7 +2946,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":7,"TextId":"Name"}
+              Value: {"NamespaceIndex":20,"TextId":"Name"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3097,7 +3097,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":7,"TextId":"Password"}
+              Value: {"NamespaceIndex":20,"TextId":"Password"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3273,7 +3273,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":7,"TextId":"Locale:"}
+              Value: {"NamespaceIndex":20,"TextId":"Locale:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3346,7 +3346,7 @@ Children:
                   Type: PropertyType
                   DataType: NodeId
               - Class: Reference
-                Target: ns=3;i=480
+                Target: ns=5;i=480
                 Direction: Forward
               - Name: LocaleComboBoxLogic
                 Type: NetLogic
@@ -3456,7 +3456,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../../CreateUserPanelLogic/ErrorMessage"
-            - Name: ns=2;Pairs
+            - Name: ns=3;Pairs
               Type: BaseObjectType
               ModellingRule: None
               Children:
@@ -3486,7 +3486,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"CannotCreateUserWithEmptyUsername"}
+                  Value: {"NamespaceIndex":20,"TextId":"CannotCreateUserWithEmptyUsername"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
@@ -3500,7 +3500,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UnableToGetUsers"}
+                  Value: {"NamespaceIndex":20,"TextId":"UnableToGetUsers"}
               - Name: Pair3
                 Type: ValueMapPair
                 ModellingRule: None
@@ -3514,7 +3514,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"PasswordTooShort"}
+                  Value: {"NamespaceIndex":20,"TextId":"PasswordTooShort"}
               - Name: Pair4
                 Type: ValueMapPair
                 ModellingRule: None
@@ -3528,7 +3528,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UnsupportedOperation"}
+                  Value: {"NamespaceIndex":20,"TextId":"UnsupportedOperation"}
               - Name: Pair5
                 Type: ValueMapPair
                 ModellingRule: None
@@ -3542,7 +3542,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"UsernameAlreadyExists"}
+                  Value: {"NamespaceIndex":20,"TextId":"UsernameAlreadyExists"}
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3593,7 +3593,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":7,"TextId":"Apply"}
+            Value: {"NamespaceIndex":20,"TextId":"Apply"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3757,7 +3757,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":7,"TextId":"Cancel"}
+            Value: {"NamespaceIndex":20,"TextId":"Cancel"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -3972,7 +3972,7 @@ Children:
       Type: PropertyType
       DataType: NodeId
   - Class: Reference
-    Target: ns=3;i=480
+    Target: ns=5;i=480
     Direction: Forward
   - Name: Width
     Type: BaseVariableType
@@ -3989,14 +3989,14 @@ Children:
     Type: BaseDataVariableType
     DataType: BaseDataType
     AccessLevel: Read
-- Name: ns=4;LibraryReference
+- Name: ns=13;LibraryReference
   Type: ObjectLibraryReference
   DataType: ObjectLibraryReferenceDataType
   Value: 
    {
     "TypeId": {
      "Id": 72,
-     "Namespace": 4
+     "Namespace": 13
     },
     "Body": {
      "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",

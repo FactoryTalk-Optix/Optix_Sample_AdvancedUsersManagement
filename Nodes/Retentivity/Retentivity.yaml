@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Security"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Security"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -37,7 +37,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/Alarms"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement/Alarms"
       Children:
       - Name: Kind
         Type: PropertyType

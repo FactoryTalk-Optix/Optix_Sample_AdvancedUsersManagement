@@ -12,7 +12,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/DataStores/EmbeddedDatabase1"
+    Value: "/Objects/Optix_Sample_AdvancedUsersManagement/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -122,7 +122,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/Status"
-        - Name: ns=2;Pairs
+        - Name: ns=3;Pairs
           Type: BaseObjectType
           Children:
           - Name: Pair
@@ -134,7 +134,7 @@ Children:
             - Name: Value
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":7,"TextId":"Failed"}
+              Value: {"NamespaceIndex":20,"TextId":"Failed"}
           - Name: Pair1
             Type: ValueMapPair
             Children:
@@ -145,7 +145,7 @@ Children:
             - Name: Value
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":7,"TextId":"Success"}
+              Value: {"NamespaceIndex":20,"TextId":"Success"}
     - Name: Message
       Type: EventFieldToLog
       DataType: LocalizedText
@@ -183,14 +183,14 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Time"
-  - Name: ns=4;LibraryReference
+  - Name: ns=13;LibraryReference
     Type: ObjectLibraryReference
     DataType: ObjectLibraryReferenceDataType
     Value: 
      {
       "TypeId": {
        "Id": 72,
-       "Namespace": 4
+       "Namespace": 13
       },
       "Body": {
        "libraryGuid": "7402740dce8643d69ca9ee0cf46be879",

@@ -12,16 +12,16 @@ Children:
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
-        Target: ns=17;i=12
+        Target: ns=9;i=12
         Direction: Forward
       - Class: Reference
-        Target: ns=17;i=15
+        Target: ns=9;i=15
         Direction: Forward
       - Class: Reference
-        Target: ns=17;i=21
+        Target: ns=9;i=21
         Direction: Forward
       - Class: Reference
-        Target: ns=17;i=20
+        Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
         Type: BaseObjectType
@@ -44,11 +44,14 @@ Children:
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
+        - Name: EventType
+          Type: StoreColumn
+          DataType: String
   - Class: Reference
-    Target: ns=19;i=30
+    Target: ns=17;i=30
     Direction: Forward
   - Class: Reference
-    Target: ns=19;i=33
+    Target: ns=17;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
@@ -70,35 +73,35 @@ Children:
     AccessLevel: Read
     Value: 2
   - Class: Reference
-    Target: ns=17;i=22
+    Target: ns=9;i=22
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=6
+    Target: ns=9;i=6
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=8
+    Target: ns=9;i=8
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=25
+    Target: ns=9;i=25
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=38
+    Target: ns=9;i=38
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=41
+    Target: ns=9;i=41
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=44
+    Target: ns=9;i=44
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=53
+    Target: ns=9;i=53
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=55
+    Target: ns=9;i=55
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=57
+    Target: ns=9;i=57
     Direction: Forward
   - Class: Reference
-    Target: ns=17;i=59
+    Target: ns=9;i=59
     Direction: Forward

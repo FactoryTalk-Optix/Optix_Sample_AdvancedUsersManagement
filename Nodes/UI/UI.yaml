@@ -182,7 +182,7 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/MainWindow"
+    Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/MainWindow"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -191,7 +191,7 @@ Children:
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/DefaultStyleSheet"
+    Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -229,7 +229,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Optix_Sample_AdvcancedUsersManagement@BrowseName"
+      Value: "/Objects/Optix_Sample_AdvancedUsersManagement@BrowseName"
   - Name: NavigationPanel1
     Type: NavigationPanel
     Children:
@@ -245,7 +245,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Screens/UsersLogin"
+          Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Screens/UsersLogin"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -260,7 +260,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Screens/UsersEditor"
+          Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Screens/UsersEditor"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -275,7 +275,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Screens/UsersAudit"
+          Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Screens/UsersAudit"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -294,10 +294,10 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
-      Target: ns=3;i=1181
+      Target: ns=5;i=1181
       Direction: Forward
     - Class: Reference
-      Target: ns=3;i=1183
+      Target: ns=5;i=1183
       Direction: Forward
     - Name: Width
       Type: BaseVariableType

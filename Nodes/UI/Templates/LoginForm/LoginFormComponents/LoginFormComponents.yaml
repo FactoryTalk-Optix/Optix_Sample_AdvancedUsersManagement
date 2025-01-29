@@ -68,7 +68,7 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Class: Reference
-        Target: ns=3;i=480
+        Target: ns=5;i=480
         Direction: Forward
       - Name: Width
         Type: BaseVariableType
@@ -111,7 +111,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":7,"TextId":"Password"}
+        Value: {"NamespaceIndex":20,"TextId":"Password"}
       - Name: ContentType
         Type: BaseVariableType
         DataType: InputTypeEnum
@@ -129,7 +129,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":7,"TextId":"Login"}
+        Value: {"NamespaceIndex":20,"TextId":"Login"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -161,7 +161,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=2;ObjectPointer
+            - Name: ns=3;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -179,7 +179,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=2;Method
+            - Name: ns=3;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "PerformLogin"
@@ -283,7 +283,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../LoginResultCode"
-          - Name: ns=2;Pairs
+          - Name: ns=3;Pairs
             Type: BaseObjectType
             ModellingRule: None
             Children:
@@ -299,7 +299,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormLoginSuccessful"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormLoginSuccessful"}
             - Name: Pair1
               Type: ValueMapPair
               ModellingRule: None
@@ -313,7 +313,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormAuthenticationFailed"}
             - Name: Pair2
               Type: ValueMapPair
               ModellingRule: None
@@ -327,7 +327,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormPasswordExpired"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormPasswordExpired"}
             - Name: Pair3
               Type: ValueMapPair
               ModellingRule: None
@@ -341,7 +341,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormAuthenticationFailed"}
             - Name: Pair4
               Type: ValueMapPair
               ModellingRule: None
@@ -355,7 +355,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormAuthenticationFailed"}
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -369,7 +369,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormAuthenticationFailed"}
             - Name: Pair6
               Type: ValueMapPair
               ModellingRule: None
@@ -383,7 +383,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":7,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"NamespaceIndex":20,"TextId":"LoginFormAuthenticationFailed"}
       - Name: LoginResultCode
         Type: BaseDataVariableType
         DataType: Int32
@@ -434,7 +434,7 @@ Children:
   - Name: PasswordExpiredDialogType
     Type: Alias
     DataType: NodeId
-    Value: "/Objects/Optix_Sample_AdvcancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/LoginPasswordExpiredDialog"
+    Value: "/Objects/Optix_Sample_AdvancedUsersManagement/UI/Templates/LoginForm/LoginFormComponents/LoginPasswordExpiredDialog"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -456,7 +456,7 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Class: Reference
-    Target: ns=3;i=519
+    Target: ns=5;i=519
     Direction: Forward
   - Name: Width
     Type: BaseVariableType
@@ -508,7 +508,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":7,"TextId":"Your password is expired. Please enter a new one"}
+        Value: {"NamespaceIndex":20,"TextId":"Your password is expired. Please enter a new one"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -722,7 +722,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../ChangePasswordResultCode"
-            - Name: ns=2;Pairs
+            - Name: ns=3;Pairs
               Type: BaseObjectType
               ModellingRule: None
               Children:
@@ -739,7 +739,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormWrongOldPassword"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormWrongOldPassword"}
               - Name: Pair1
                 Type: ValueMapPair
                 ModellingRule: None
@@ -753,7 +753,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormPasswordAlreadyUsed"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormPasswordAlreadyUsed"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
@@ -767,7 +767,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormPasswordChangedTooRecently"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormPasswordChangedTooRecently"}
               - Name: Pair3
                 Type: ValueMapPair
                 ModellingRule: None
@@ -781,7 +781,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormPasswordTooShort"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormPasswordTooShort"}
               - Name: Pair4
                 Type: ValueMapPair
                 ModellingRule: None
@@ -795,7 +795,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormUserNotFound"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormUserNotFound"}
               - Name: Pair5
                 Type: ValueMapPair
                 ModellingRule: None
@@ -809,7 +809,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormUnsupportedOperation"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormUnsupportedOperation"}
               - Name: Pair6
                 Type: ValueMapPair
                 ModellingRule: None
@@ -823,7 +823,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"LoginChangePasswordFormPasswordsDoNotMatch"}
+                  Value: {"NamespaceIndex":20,"TextId":"LoginChangePasswordFormPasswordsDoNotMatch"}
         - Name: ChangePasswordResultCode
           Type: BaseDataVariableType
           DataType: Int32
@@ -867,7 +867,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"Old password"}
+      Value: {"NamespaceIndex":20,"TextId":"Old password"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -908,7 +908,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"Old password"}
+      Value: {"NamespaceIndex":20,"TextId":"Old password"}
     - Name: ContentType
       Type: BaseVariableType
       DataType: InputTypeEnum
@@ -926,7 +926,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"New password"}
+      Value: {"NamespaceIndex":20,"TextId":"New password"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -967,7 +967,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"New password"}
+      Value: {"NamespaceIndex":20,"TextId":"New password"}
     - Name: ContentType
       Type: BaseVariableType
       DataType: InputTypeEnum
@@ -985,7 +985,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"Confirm password"}
+      Value: {"NamespaceIndex":20,"TextId":"Confirm password"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1026,7 +1026,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"Confirm password"}
+      Value: {"NamespaceIndex":20,"TextId":"Confirm password"}
     - Name: ContentType
       Type: BaseVariableType
       DataType: InputTypeEnum
@@ -1044,7 +1044,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":7,"TextId":"Change password"}
+      Value: {"NamespaceIndex":20,"TextId":"Change password"}
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1087,7 +1087,7 @@ Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=2;ObjectPointer
+          - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -1105,7 +1105,7 @@ Children:
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
-          - Name: ns=2;Method
+          - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "PerformChangePassword"
@@ -1163,7 +1163,7 @@ Children:
         - Name: MethodContainer2
           Type: BaseObjectType
           Children:
-          - Name: ns=2;ObjectPointer
+          - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -1181,7 +1181,7 @@ Children:
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
-          - Name: ns=2;Method
+          - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "SetOutputMessage"
@@ -1204,7 +1204,7 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../MethodContainer1/OutputArguments/resultCode"
-                - Name: ns=2;Pairs
+                - Name: ns=3;Pairs
                   Type: BaseObjectType
                   ModellingRule: None
                   Children:
@@ -1419,7 +1419,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":7,"TextId":"Current User:"}
+        Value: {"NamespaceIndex":20,"TextId":"Current User:"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -1468,7 +1468,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":7,"TextId":"Logout"}
+        Value: {"NamespaceIndex":20,"TextId":"Logout"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -1497,7 +1497,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=2;ObjectPointer
+            - Name: ns=3;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -1515,7 +1515,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=2;Method
+            - Name: ns=3;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "Logout"
@@ -1641,13 +1641,13 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
     - Class: Reference
-      Target: ns=3;i=354
+      Target: ns=5;i=354
       Direction: Forward
     - Class: Reference
-      Target: ns=3;i=356
+      Target: ns=5;i=356
       Direction: Forward
     - Class: Reference
-      Target: ns=3;i=358
+      Target: ns=5;i=358
       Direction: Forward
     - Name: Width
       Type: BaseVariableType
